@@ -1,8 +1,9 @@
 # GodotProximitySensor
-<p>This addon uses&nbsp;a camera to estimate collision point, normal and color.</p>
-<p>Tested on Godot 4.2</p>
-<p>0.2 - Fixed some errors and visualization placement mistakes.</p>
-<h4>Usage:</h4>
+
+<p class="text-center">This addon uses&nbsp;a camera to estimate collision point, normal and color.</p><p>Tested on Godot 4.2
+</p>
+<p>0.2 - Fixed some errors and visualization placement mistakes.
+</p><p><br></p><p class="text-center"><img src="https://img.itch.zone/aW1nLzE0OTU1OTQ0LmdpZg==/original/hjwuKB.gif"></p><p class="text-center"><em>Note:&nbsp;The normals in the vertex-displaced mesh shown in the gif&nbsp;</em></p><p class="text-center"><em>above are generated in the shader, so they are not exact.</em></p><h4></h4><h4></h4><h4>Usage:</h4>
 <p>After enabling the addon and added to the scene, you can use:<br><strong></strong>-&gt;<strong>&nbsp;get_collision_point()</strong> <em>returns Vector3</em><br>-&gt; <strong>get_collision_normal()</strong> <em>returns Vector3</em></p>
 <p>-&gt; <strong>get_collision_color()</strong> <em>returns Color</em></p>
 <p>-&gt;&nbsp;<strong>is_colliding()</strong><em> returns bool</em></p>
